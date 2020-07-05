@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+
+<head>
+    <meta charset="UTF-8">
+    {% block title %}
+        <title>Tarefas</title>
+    {% endblock title %}
+
+
+    {% include "head.html" %}
+    
+</head>
+<body id="{{ bodyId }}">
+
+    <div id="container">
+
+    {% block content %}
+    {% endblock %}
+
+   </div>
+
+   {% include "modal.html" %}
+
+    <script type="text/javascript" src="script.js"></script>
+</body>
+</html>

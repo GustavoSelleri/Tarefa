@@ -1,0 +1,30 @@
+
+<div id="modal" class="hide">
+    <div class="content">
+         <h1>Cadastrar Tarefa</h1>
+
+         <form action="/" method="POST" onsubmit="return checkFields(event)">
+
+             <div class="input-wrapper">
+                 <label for="title">Descrição da Tarefa</label>
+                 <input type="text" name="title">
+             </div>
+
+             <div class="input-wrapper">
+                 <label for="hour">Horário da Tarefa</label>
+                 <input type="text" name="hour">
+             </div>
+
+             <div class="input-wrapper">
+                 <label for="description">Aqui você pode descrever algo importante sobre sua tarefa</label>
+                 <textarea name="description" id="" cols="30" rows="10"></textarea>
+             </div>
+
+             <a href="#" onclick="onOff()">Voltar</a>
+             <button>Salvar</button>
+             
+
+         </form>
+
+    </div>
+</div>
